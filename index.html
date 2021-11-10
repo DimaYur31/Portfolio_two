@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap&swap&subset=cyrillic-ext"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b0e5da3e4e.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Portfolio Two</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+
+
+		<header class="header">
+
+			<div class="header__logo">
+				<img src="img/logo 1.png" alt="LOGO">
+			</div>
+
+
+			<div class="header__body">
+				<nav class="header__nav">
+					<ul class="header__nav-list">
+						<li><a href="#about" onClick="clik()">О комплексе</a></li>
+						<li><a href="#aboutUS" onClick="clik()">О компании</a></li>
+						<li><a href="#events" onClick="clik()">Новости</a></li>
+						<li><a href="#news" onClick="clik()">Медиа-банк</a></li>
+						<li><a href="#contacts" onClick="clik()">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+
+
+
+			<div class="header__search">
+
+				<div class="header__search-body">
+					<input type="text">
+					<button type="submit"><img src="img/Search.png" alt="Search"></button>
+				</div>
+
+				<div class="header__search-lang">
+					<a href="#" class="header__search-lang-img">
+						<img src="img/Globe.png">
+					</a>
+					<select class="header__search-lang-text">
+						<option value="1">English</option>
+						<option value="2">Español</option>
+						<option value="3">Русский</option>
+						<option value="4">Italiano</option>
+						<option value="5">Deutsch</option>
+						<option value="6">Polskie</option>
+						<option value="7">Français</option>
+						<option value="8">日本語</option>
+						<option value="9">中文</option>
+						<option value="10">Türk</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="burger"><span></span></div>
+
+
+		</header>
+
+
+		<main class="main">
+
+			<section class="first-scrin" id="about">
+
+				<div class="first-scrin__bg">
+					<img src="img/bgc!.png">
+				</div>
+
+				<div class="first-scrin__body">
+					<div class="first-scrin__title">ЭКСПОФОРУМ</div>
+					<div class="first-scrin__box box">
+						<p class="box__text">конгрессно - выставочный центр
+							<span>Санкт&nbsp;-&nbsp;Петербурга</span>
+						</p>
+						<a href="#" class="box__link">О комплексе <span id="arrow"></span></a>
+					</div>
+
+					<div class="first-scrin__wrapper">
+						<div class="first-scrin__item item__scrin bg-1">
+							<div class="item__scrin-title">Календарь мероприятий</div>
+							<a href="#" class="item__scrin-link link">Подробнее <span></span></a>
+						</div>
+						<div class="first-scrin__item item__scrin bg-2">
+							<div class="item__scrin-title">Как добраться
+								до Экспофорума</div>
+							<a href="#" class="item__scrin-link link">Подробнее <span></span></a>
+						</div>
+						<div class="first-scrin__item item__scrin bg-3">
+							<div class="item__scrin-title">Онлайн-заявка
+								на организацию
+								мероприятия</div>
+							<a href="#" class="item__scrin-link link">Подробнее <span></span></a>
+						</div>
+						<div class="first-scrin__item item__scrin bg-4">
+							<div class="item__scrin-title">План
+								и инфраструктура
+								комплекса</div>
+							<a href="#" class="item__scrin-link link">Подробнее <span></span></a>
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+
+			<section class="side-menu" id="aboutUS">
+				<div class="side-menu__items">
+
+					<div class="side-menu__item menu-item">
+						<h2 class="menu-item__header">Организаторам</h2>
+						<ul class="menu-item__list">
+							<li><a class="menu-item__link" href="#">Документы организаторам</a></li>
+							<li><a class="menu-item__link" href="#">Услуги организаторам</a></li>
+							<li><a class="menu-item__link" href="#">Выставочные площади</a></li>
+							<li><a class="menu-item__link" href="#">Рестораны и кафе</a></li>
+							<li><a class="menu-item__link" href="#">Конгресс-центр</a></li>
+							<li><a class="menu-item__link" href="#">Спорт-центр</a></li>
+						</ul>
+					</div>
+
+					<div class="side-menu__item menu-item">
+						<h2 class="menu-item__header">Экспонентам</h2>
+						<ul class="menu-item__list">
+							<li><a class="menu-item__link" href="#">Общие условия участия</a></li>
+							<li><a class="menu-item__link" href="#">Услуги экспонентам</a></li>
+							<li><a class="menu-item__link" href="#">Услуги экспонентам</a></li>
+							<li><a class="menu-item__link" href="#">Центр деловых контактов</a></li>
+							<li><a class="menu-item__link" href="#">Забронировать гостиницу</a></li>
+						</ul>
+					</div>
+
+					<div class="side-menu__item menu-item">
+						<h2 class="menu-item__header">Посетителям</h2>
+						<ul class="menu-item__list">
+							<li><a class="menu-item__link" href="#">Сервисы</a></li>
+							<li><a class="menu-item__link" href="#">Онлайн-регистрация <br>на мероприятие </a></li>
+							<li><a class="menu-item__link" href="#">Забронировать гостиницу</a></li>
+							<li><a class="menu-item__link" href="#">Центр деловых контактов</a></li>
+						</ul>
+					</div>
+
+					<div class="side-menu__item menu-item">
+						<h2 class="menu-item__header">Прессе</h2>
+						<ul class="menu-item__list">
+							<li><a class="menu-item__link" href="#">Аккредитация</a></li>
+							<li><a class="menu-item__link" href="#">Пресс-служба</a></li>
+							<li><a class="menu-item__link" href="#">Правила аккредитации</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="events" id="events">
+				<div class="events__box">
+					<h2 class="events__header">Текущие и будущие мероприятия</h2>
+					<a href="#" class="events__all link">Все мероприятия <span></span></a>
+				</div>
+				<div class="events__items">
+
+					<a href="#" class="events__item">
+						<div class="events__item-img">
+							<img src="img/!event1.png">
+						</div>
+						<p class="events__item-text">2 января 2020 г. – 7 января 2020 г.</p>
+						<h3 class="events__item-header">Експо елка</h3>
+						<p class="events__item-text">Парк интерактивных развлечений</p>
+					</a>
+
+					<a href="#" class="events__item">
+						<div class="events__item-img">
+							<img src="img/!event2.png">
+						</div>
+						<p class="events__item-text">5 февраля 2020 г. – 9 февраля 2020 г.</p>
+						<h3 class="events__item-header">Junwex Петербург</h3>
+						<p class="events__item-text">Выставка ювелирных изделий</p>
+					</a>
+
+					<a href="#" class="events__item">
+						<div class="events__item-img">
+							<img src="img/!event3.png">
+						</div>
+						<p class="events__item-text">7 февраля 2020 г. – 9 февраля 2020 г.</p>
+						<h3 class="events__item-header">Невский ларец</h3>
+						<p class="events__item-text">Выставка-ярмарка народных художественных
+							промыслов и ремесел</p>
+					</a>
+
+					<a href="#" class="events__item">
+						<div class="events__item-img">
+							<img src="img/!event4.png">
+						</div>
+						<p class="events__item-text">14 февраля 2020 г. – 23 февраля 2020 г.</p>
+						<h3 class="events__item-header">Понаехали!</h3>
+						<p class="events__item-text">Специализированная арт-ярмарка</p>
+					</a>
+
+					<a href="#" class="events__item">
+						<div class="events__item-img">
+							<img src="img/!event5.png">
+						</div>
+						<p class="events__item-text">218 февраля 2020 г. – 21 февраля 2020 г.</p>
+						<h3 class="events__item-header">VET.CAMP</h3>
+						<p class="events__item-text">Конференция для ветеринарных врачей</p>
+					</a>
+
+					<a href="#" class="events__item">
+						<div class="events__item-img">
+							<img src="img/!event6.png">
+						</div>
+						<p class="events__item-text">26 февраля 2020 г. – 28 февраля 2020 г.</p>
+						<h3 class="events__item-header">ExpoHoReCa</h3>
+						<p class="events__item-text">Специализированная выставка</p>
+					</a>
+
+				</div>
+
+			</section>
+
+			<section class="news" id="news">
+				<div class="news__links">
+
+					<a href="#" class="news__link">
+						<img src="img/!ad-1.png">
+					</a>
+
+					<a href="#" class="news__link">
+						<img src="img/!ad-2.png">
+					</a>
+
+				</div>
+
+				<div class="all__news">
+
+					<div class="all__news-head">
+						<h2>Новости</h2>
+						<a href="#" class="link">Все новости <span></span></a>
+					</div>
+
+					<div class="all__news-items">
+
+						<a href="#" class="all__news-item">
+							<img src="img/!news1.png">
+							<p class="all__news-dete">4 января 2020г.</p>
+							<p class="all__news-text">Как объединилась реальность и виртуальность – LIKEE PARTY</p>
+						</a>
+
+						<a href="#" class="all__news-item">
+							<img src="img/!news2.png">
+							<p class="all__news-dete">2 января 2020г.</p>
+							<p class="all__news-text">Как объединилась реальность и виртуальность – LIKEE PARTY</p>
+						</a>
+
+						<a href="#" class="all__news-item">
+							<img src="img/!news3.png">
+							<p class="all__news-dete">2 января 2020г.</p>
+							<p class="all__news-text">Как объединилась реальность и виртуальность – LIKEE PARTY</p>
+						</a>
+
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+
+		<footer class="footer" id="contacts">
+			<div class="footer__box">
+
+				<div class="footer__items">
+
+					<div class="footer__item item-one">
+						<h3>О компании</h3>
+						<ul>
+							<li><a href="#">О нашей компании</a></li>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="#">Партрнеры</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item item-two">
+						<h3>Экспонентам</h3>
+						<ul>
+							<li><a href="#">Общие условия участия</a></li>
+							<li><a href="#">Услуги экспонентам</a></li>
+							<li><a href="#">Документы экспонентам</a></li>
+							<li><a href="#">Забронировать гостиницу</a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item item-three">
+						<h3>Прессе</h3>
+						<ul>
+							<li><a href="#">Аккредитация</a></li>
+							<li><a href="#">Пресс-служба</a></li>
+							<li><a href="#">Правила аккредитации</a></li>
+						</ul>
+					</div>
+
+
+
+					<div class="footer__item item-four">
+						<h3>Организаторам</h3>
+						<ul>
+							<li><a href="#">Преимущества площадки</a></li>
+							<li><a href="#">Структура комплекса</a></li>
+							<li><a href="#">Онлайн-заявка на организацию</a></li>
+							<li><a href="#">Онлайн-заявка на организацию</a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item item-five">
+						<h3>Посетителям</h3>
+						<ul>
+							<li><a href="#">Сервисы</a></li>
+							<li><a href="#">Онлайн-регистрация</a></li>
+							<li><a href="#">Забронировать гостиницу</a></li>
+							<li><a href="#">Центр деловых контактов</a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item application">
+						<h3>Приложение</h3>
+						<ul>
+							<li><a href="#"><img src="img/App.png"></a></li>
+							<li><a href="#"><img src="img/Google.png"></a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item socIcons">
+						<h3>Мы в соц. сетях</h3>
+						<ul>
+							<li><a href="#"><span><i class="fab fa-youtube"></i></span></a></li>
+							<li><a href="#"><span><i class="fab fa-vk"></i></span></a></li>
+							<li><a href="#"><span><i class="fab fa-facebook-square"></i></span></a></li>
+							<li><a href="#"><span><i class="fab fa-instagram"></i></span></a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item subscribe">
+						<h3>Подписка на новости</h3>
+						<p>Получайте все самые последние <br> новости о мероприятиях в <br> Экспофоруме.</p>
+						<input type="email" placeholder="Введите ваш e-mail">
+						<button type="submit"><img src="img/message.png"></button>
+					</div>
+
+				</div>
+
+			</div>
+		</footer>
+
+
+
+		<div class="figma">
+			<div class="container">
+				<a href="https://figma.info/blog/templates/2020-01-09-dizajn-sajta-expoforuma.html" target="_blank">Макет
+				</a>
+			</div>
+
+		</div>
+
+
+
+		<script src="js/skript.js"></script>
+</body>
+
+</html>

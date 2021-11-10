@@ -1,0 +1,130 @@
+.events {
+	background: #ffc41e;
+	display: grid;
+	grid-template: minmax(auto, 170px) minmax(815px, 1fr) / 1fr minmax(auto, 1140px) 1fr;
+
+	&__box {
+		display: grid;
+		grid-column: 2/3;
+		grid-template: 1fr/1fr 1fr;
+		align-items: center;
+		margin: 0 13px;
+	}
+	@media (max-width: 865px) {
+		&__box {
+			grid-template-columns: 70% 30%;
+		}
+	}
+
+	&__header {
+		font-family: Plumb;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 130%;
+		letter-spacing: -0.01em;
+		color: #2e373b;
+	}
+	@media (max-width: 450px) {
+		&__header {
+			text-align: center;
+			padding-top: 20px;
+		}
+	}
+
+	&__all {
+		position: relative;
+		font-family: Plumb;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 21px;
+		line-height: 130%;
+		text-align: right;
+		letter-spacing: -0.01em;
+		text-decoration: underline;
+		color: #2e373b;
+		padding-right: 43px;
+		&:hover {
+			text-decoration: none;
+		}
+		span {
+			width: 25px;
+			left: 97%;
+
+			background: #2e373b;
+
+			&::before,
+			&::after {
+				background: #2e373b;
+			}
+		}
+	}
+
+	&__items {
+		display: grid;
+		grid-column: 2/3;
+		grid-template: repeat(2, minmax(auto, 370px)) / repeat(auto-fit, minmax(280px, 350px));
+		grid-column-gap: 30px;
+		grid-row-gap: 18px;
+		align-items: start;
+		margin: 0 13px;
+		justify-content: center;
+	}
+
+	&__item {
+		position: relative;
+		display: grid;
+		grid-template: minmax(auto, 240px) repeat(3, fit-content(20px)) / minmax(auto, 350px);
+	}
+
+	&__item-img {
+		position: relative;
+		width: 100%;
+		padding-bottom: 68.6%;
+		margin-bottom: 20px;
+
+		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__item-text {
+		font-family: Circe;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 135%;
+		color: #2e373b;
+	}
+
+	&__item-header {
+		font-family: Plumb;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 21px;
+		line-height: 130%;
+		letter-spacing: -0.01em;
+		color: #f6404f;
+		margin: 10px 0;
+	}
+}
+
+@media (max-width: 1136px) {
+	.events {
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 865px) {
+	.events {
+		&__box {
+			grid-template: 1fr 1fr/ 1fr;
+			justify-items: center;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.link span {
+	display: inline-block;
+	position: absolute;
+	left: 118%;
+	top: 50%;
+	width: 16px;
+	height: 1px;
+	background: rgb(255, 255, 255);
+	transform: translate(-50%);
+	z-index: 88;
+}
+.link span::before,
+.link span::after {
+	content: "";
+	position: absolute;
+	right: 0px;
+	height: 50%;
+	height: 1px;
+	width: 3px;
+	background: #fff;
+	border-radius: 30%;
+}
+.link span::before {
+	transform: rotate(45deg) translateY(-100%);
+}
+.link span::after {
+	transform: rotate(-45deg) translateY(100%);
+}
